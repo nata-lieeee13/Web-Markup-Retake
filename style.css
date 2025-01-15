@@ -1,0 +1,423 @@
+/*Google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@400;700&family=Cardo:wght@400;700&display=swap');
+
+/*Websites colors*/
+body{
+    background-color: #f5e0e0;
+    font-family: "Inria Serif", serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*Specics on font*/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Inria Serif", serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin:0;
+    padding: 0.5rem;
+}
+h1{
+    font-size: 2rem;
+}
+
+.maintitle{
+    text-align: center;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+.homepage1{
+    text-align: center;
+    font-family: "Inria Serif" , serif;
+}
+
+.info1{
+    text-align: center;
+    font-family: "Cardo" ,serif;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.homepage2{
+    text-align: center;
+    font-family: "Inria Serif" , serif;
+}
+
+.info2{
+    text-align: center;
+    font-family: "Cardo" ,serif;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.homepage3{
+    text-align: center;
+    font-family: "Inria Serif" , serif;
+}
+
+.info3{
+    text-align: center;
+    font-family: "Cardo" ,serif;
+}
+
+h5{
+    font-size: 1.5rem;
+}
+
+h6{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    font-family: "Cardo" ,serif;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    text-indent: 1em;
+    word-spacing: 0.5em;
+    margin: 1rem 0;
+}
+
+p1{
+    font-size: 16px;
+    font-family: "Cardo" ,serif;
+}
+
+.title{
+    font-size: 64px;
+    font-family: "Inria Serif" , serif;
+    font-weight: lighter;
+    position: relative;
+    left: 200px;
+    top: -250px;
+}
+
+p3{
+    font-size: 16px;
+    font-family: "Cardo" ,serif;
+    text-align: center;
+}
+
+.maintext{
+    text-align: center;
+}
+
+.drypic{
+position: relative;
+top: 25px; 
+left:150px;
+font-size: 24px;
+}
+
+.oilypic{
+    position: relative;
+    top: -150px; 
+    left:450px;
+    font-size: 24px;
+}
+
+.combinationpic{
+    position: relative;
+    top: -550px; 
+    left:715px;
+    font-size: 24px;
+}
+
+.sensitivepic{
+    position: relative;
+    top: -715px; 
+    left: 1050px;
+    font-size: 24px;
+}
+
+/* Link */
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color:#af3c64;
+    text-decoration: underline;
+}
+
+/* Nav Bar*/
+.nav-bar{
+    background-color: #b6909d;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+}
+
+.nav-item{
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item:hover{
+    background-color: #af3c64;; 
+    border-radius: 0.5rem;
+}
+
+/*Pseudo-Element */
+p::first-letter{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+/*Table styling*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table tr:nth-child(even){
+    background-color: #cff;
+}
+
+table tr:nth-child(odd){
+    background-color: #fff;
+}
+
+td, th {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/*Image layouts*/
+
+.luminous-image{
+    width: 400px;
+    height: 266px;
+    position:relative;
+    top: -80px;
+    left: -20px ;
+}
+
+.luminous2-image{
+    width: 250px;
+    height: 200px;
+}
+
+.dry{
+    width: 240px;
+    height: 250px;
+    border-radius: 25px;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    
+}
+
+.oily{
+    width: 240px;
+    height: 250px;
+    border-radius: 25px;
+    position: relative;
+    left: 400px;
+    top: -150px;
+}
+
+.combination{
+    width: 240px;
+    height: 250px;
+    border-radius: 25px;
+    position:relative;
+    left: 700px;
+    top: -550px;
+}
+
+.sensitive{
+    width: 240px;
+    height: 250px;
+    border-radius: 25px;
+    position: relative; 
+    left: 1000px;
+    top: -715px;
+}
+
+.Author{
+    width: 240px;
+    height: 250px;
+    margin-left: auto;
+}
+
+.skinpicture{
+    width:300px;
+    height:300px;
+    border-radius: 50px;
+}
+/*navigation format*/
+.nav1{
+    background-color: #b6909d;
+    border: 10px solid #b6909d;
+    border-radius: 25px;
+    position: relative;
+    border-style: none;
+    top: -150px;
+    left: 300px;
+}
+
+.nav2{
+    background-color: #b6909d;
+    border: 10px solid #b6909d;
+    border-radius: 25px;
+    border-style: none;
+    position: relative;
+    top: -150px;
+    left: 350px;
+}
+
+.nav3{
+    background-color: #b6909d;
+    border: 10px solid #b6909d;
+    border-radius: 25px;
+    border-style: none;
+    position: relative;
+    top: -150px;
+    left: 400px;
+}
+
+.nav4{
+    background-color: #b6909d;
+    border: 10px solid #b6909d;
+    border-radius: 25px;
+    border-style: none;
+    position: relative;
+    top: -150px;
+    left: 450px;
+}
+
+.nav5{
+    background-color: #b6909d;
+    border: 10px solid #b6909d;
+    border-radius: 25px;
+    border-style: none;
+    position: relative;
+    top: -150px;
+    left: 500px;
+}
+
+.nav6{
+    background-color: #b6909d;
+    border: 10px solid #b6909d;
+    border-radius: 25px;
+    border-style: none;
+    position: relative;
+    top: -150px;
+    left: 550px;
+}
+
+.luminous2{
+    background-color: #b6909d;
+    border-radius: 100px;
+    border-style: none;
+    text-align: center;
+    width: 800px;
+    display: block;    
+    margin: 0 auto;
+}
+
+.main{
+    border-radius: 100px;
+    width: 1226px;
+    height: 393px;
+    display: block;    
+    margin: 0 auto;
+    margin-top: -5%;
+}
+
+fieldset{
+    background-color: #b6909d;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+label{
+    display: block;
+    font-family: "Cardo", serif;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+button{
+    background-color: #ddd;
+    color: #b6909d;
+    padding: 0.5 rem 1 rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #d3a0b2;
+}
+
+/* Responsive Design */
+@media(max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-box{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/*Aside Section*/
+aside{
+    background-color: #ffecec;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    font-family: "Cardo", serif;
+    font-size: 1rem;
+}
+
+/* Adding z-index for cookies message */
+.cookies-message{
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background: #100;
+    color:#fff;
+    padding: 1rem;
+    z-index: 9999;
+}
+/*Flexbox for layout */ 
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
